@@ -7,3 +7,9 @@ El proyecto debe tener una página principal y varias secciones donde estén las
 No utilices CSS. Aprovecha todas las clases que posee Bootstrap.
 
 Intenta aplicar todos los contenidos vistos en las actividades anteriores y aplicar algunos nuevos consultando la documentación.
+
+
+COSAS A MEJORAR:
+
+HEADER
+HACER QUE LA LUPA ESTE A LA DERECHA DEL INPUT BUSCADOR
