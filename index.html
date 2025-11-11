@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <header class="container-fluid d-flex flex-column flex-sm-row justify-content-between border">
+    <header class="container-fluid d-flex flex-column flex-sm-row justify-content-between border text-white bg-primary bg-gradient">
         <div class="border col-10 col-sm-6 d-flex flex-row border border-primary align-items-center">
             <div class="w-25 col-2">
                 <a class="" href=""><img class="w-25" src="./img/hamburger-button.png" alt=""></a>
@@ -25,22 +25,22 @@
         </div>
     </header>
 
-<div class="container-fluid d-flex flex-row">
+<div class=" d-flex flex-row">
     <nav class="border border-primary d-none d-md-flex">
         <a>Hola</a>
     </nav>
+    <main class="container-fluid border border-secondary d-flex flex-column col-12 bg-secondary bg-gradient" style="--bs-bg-opacity: .3;">
 
-    <main class="border border-secondary d-flex flex-column col-12">
         <div class="border border-danger rounded-3 my-5">
             <h2 class="">Panel de control principal</h2>
         </div>
 
-        <div class="border border-danger rounded-3 my-5">
+        <div class="border border-danger rounded-3 my-5 bg-light w-75 align-self-center">
             <h2 class="">Usted ha iniciado sesión como root</h2>
             <button class="bg-primary border-dark border text-white">Cambiar nivel permiso</button>
             <button class="bg-white border-primary border text-primary">Cerrar Sesión</button>
         </div>
-        <div class="border border-danger rounded-3 my-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="border border-danger rounded-3 my-5 d-flex flex-column justify-content-center align-items-center bg-light">
             <h2 class="">Registro de amenazas</h2>
             <div class="border border border-secondary bg-dark w-75">
                 <table class="table table-dark table-striped">
@@ -50,23 +50,23 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-warning w-25" style="height: 30px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-warning w-25 ms-4" style="height: 30px;"></div></th>
                             <th scope="row">Scanneo de puertos</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-danger w-25" style="height: 30px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-danger w-25 ms-4" style="height: 30px;"></div></th>
                             <th scope="row">Scanneo de puertos</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-primary w-25" style="height: 30px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-primary w-25 ms-4" style="height: 30px;"></div></th>
                             <th scope="row">Scanneo de puertos</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-danger w-25" style="height: 30px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-danger w-25 ms-4" style="height: 30px;"></div></th>
                             <th scope="row">Scanneo de puertos</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-warning w-25" style="height: 30px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-warning w-25 ms-4" style="height: 30px;"></div></th>
                             <th scope="row">Scanneo de puertos</th>
                         </tr>
                     </tbody>
@@ -76,9 +76,9 @@
                 <a href="" class="text-white text-decoration-none link-secondary">Obtener grafico de alertas</a>
             </div>
         </div>
-        <div class="border rounded-2 d-flex flex-column align-items-center my-3">
-            <h2>Tareas</h2>
-            <div class="bg-primary w-50 border border-dark rounded-2 ps-1">
+        <div class="border rounded-2 d-flex flex-column align-items-center my-3 bg-light">
+            <h2 class="">Tareas</h2>
+            <div class="bg-primary bg-gradient w-50 border border-dark rounded-2 ps-1 text-white">
                 <h3>Número de tareas pendientes <span class="">23</span></h3>
                 <hr>
                 <h4 class="">Ver tareas pendientes</h4>
@@ -87,9 +87,9 @@
                 <h4></h4>
             </div>
         </div>
-        <div class="border rounded-2 d-flex flex-column align-items-center my-3">
+        <div class="border rounded-2 d-flex flex-column align-items-center my-3 bg-light">
             <h2>Mensajes</h2>
-            <div class="bg-primary w-50 border border-dark rounded-2 ps-1">
+            <div class="bg-primary w-50 border border-dark rounded-2 ps-1 text-white">
                 <h3>Mensajes sin leer <span>63</span></h3>
                 <hr>
                 <h4 class="">Ver mensajes</h4>
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <div class="border rounded-2 d-flex flex-column align-items-center my-5">
+        <div class="border rounded-2 d-flex flex-column align-items-center my-5 bg-light">
             <h2>Administrar usuarios</h2>
             <table class="table table-dark table-striped">
                     <thead>
@@ -109,27 +109,27 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25" style="height: 20px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25 ms-3" style="height: 20px;"></div></th>
                             <th scope="row">Michael</th>
                             <th scope="row">Cliente</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-secondary w-25" style="height: 20px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-secondary w-25 ms-3" style="height: 20px;"></div></th>
                             <th scope="row">Michael</th>
                             <th scope="row">Administrador</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25" style="height: 20px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25 ms-3" style="height: 20px;"></div></th>
                             <th scope="row">Michael</th>
                             <th scope="row">Administrador</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25" style="height: 20px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-success w-25 ms-3" style="height: 20px;"></div></th>
                             <th scope="row">Michael</th>
                             <th scope="row">Root</th>
                         </tr>
                         <tr>
-                            <th scope="row"><div class="rounded-circle border-danger bg-secondary w-25" style="height: 20px;"></div></th>
+                            <th scope="row"><div class="rounded-circle border-danger bg-secondary w-25 ms-3" style="height: 20px;"></div></th>
                             <th scope="row">Michael</th>
                             <th scope="row">Cliente</th>
                         </tr>
