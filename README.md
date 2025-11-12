@@ -12,4 +12,4 @@ Intenta aplicar todos los contenidos vistos en las actividades anteriores y apli
 COSAS A MEJORAR:
 
 HEADER
-HACER QUE LA LUPA ESTE A LA DERECHA DEL INPUT BUSCADOR
+Justificar elementos en pantalla pequeña, acabar de hacer el resto de cuando la pagina esta en pantalla completa.
