@@ -10,11 +10,11 @@
 
     <header class="container-fluid d-flex flex-column pt-2 flex-sm-row justify-content-between text-white bg-primary bg-gradient">
         <div class="col-10 col-sm-6 d-flex flex-row  align-items-center ps-5">
-            <div class="w-25 col-2 d-flex align-items-center flex-row">
-                <a class="" href=""><img class="w-25" src="./img/hamburger-button.png" alt=""></a>
+            <div class="me-5 col-2 d-flex align-items-center flex-row">
+                <a class="" href=""><img class="" src="./img/hamburger-button.png" alt="" style="width: 35px;"></a>
             </div>
 
-            <p class="col-5 fs-1 fw-bold">Secure Castle</p>
+            <p class="col-5 me-2 fs-1 fw-bold">Secure Castle</p>
             
             <input class="d-none d-lg-flex col-lg-4 ps-1 w-25" id="buscador" name="buscador" placeholder="Buscar">
             
@@ -26,8 +26,8 @@
 
         <div class="d-none d-sm-flex col-sm-6 d-flex flex-row align-items-center">
             <h3 class="col-6 fs-1 fw-bold">Nombre de usuario</h3>
-            <div class="col-2 w-50">
-                <img class="w-25" src="./img/perfil.png" alt="">
+            <div class="ms-2 col-2 w-50">
+                <img class="ms-5 w-25" src="./img/perfil.png" alt="">
             </div>
         </div>
 
@@ -37,19 +37,30 @@
     </header>
 
 <div class=" d-flex flex-row">
+
     <nav class="border border-primary d-none d-md-flex">
         <a>Hola</a>
     </nav>
-    <main class="container-fluid border border-secondary d-flex flex-column col-12 bg-secondary bg-gradient" style="--bs-bg-opacity: .3;">
 
-        <div class="border border-danger rounded-3 my-5">
-            <h2 class="">Panel de control principal</h2>
+    <main class="container-fluid border border-secondary d-flex flex-column col-12 bg-secondary bg-gradient" style="--bs-bg-opacity: .3;">
+        <div class="mt-5 mb-1 text-center">
+            <div class="d-inline-block border-top border-bottom border-3 text-dark border-light px-3">
+                <h2 class="m-0">Panel de control principal</h2>
+            </div>
         </div>
 
-        <div class="border border-light shadow rounded-3 my-5 bg-light w-75 align-self-center p-3">
+        
+
+
+
+
+
+        <div class="border border-light shadow rounded-3 my-5 bg-light w-75 align-self-center d-flex flex-column  text-start p-3">
             <h2 class="p-2">Usted ha iniciado sesión como root</h2>
-            <button class="bg-primary border-dark border text-white me-2">Cambiar nivel permiso</button>
-            <button class="bg-white border-primary border text-primary">Cerrar Sesión</button>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="bg-primary border-dark border text-white me-2">Cambiar nivel permiso</button>
+                <button class="bg-white border-primary border text-primary">Cerrar Sesión</button>
+            </div>
         </div>
         <div class="border border-light shadow rounded-3 my-5 d-flex flex-column justify-content-center align-items-center bg-light ">
             <h2 class="">Registro de amenazas</h2>
@@ -89,7 +100,7 @@
         </div>
         <div class="align-self-center border border-light shadow rounded-2 d-flex flex-column align-items-center my-3 bg-light w-75">
             <h2 class="">Tareas</h2>
-            <div class="bg-primary bg-gradient w-100 border border-dark rounded-bottom-2 ps-1 text-white">
+            <div class="bg-primary bg-gradient w-100 border border-light rounded-bottom-2 ps-1 text-white">
                 <h3>Número de tareas pendientes <span class="">23</span></h3>
                 <hr>
                 <h4 class="">Ver tareas pendientes</h4>
@@ -101,7 +112,7 @@
 
         <div class="border border-light shadow align-self-center rounded-2 d-flex flex-column align-items-center my-3 bg-light w-75">
             <h2>Mensajes</h2>
-            <div class="bg-primary w-100 border border-dark rounded-bottom-2     ps-1 text-white">
+            <div class="bg-primary w-100 border border-light rounded-bottom-2     ps-1 text-white">
                 <h3>Mensajes sin leer <span>63</span></h3>
                 <hr>
                 <h4 class="">Ver mensajes</h4>
