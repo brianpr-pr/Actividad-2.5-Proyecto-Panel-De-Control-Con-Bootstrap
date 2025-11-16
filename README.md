@@ -7,9 +7,3 @@ El proyecto debe tener una página principal y varias secciones donde estén las
 No utilices CSS. Aprovecha todas las clases que posee Bootstrap.
 
 Intenta aplicar todos los contenidos vistos en las actividades anteriores y aplicar algunos nuevos consultando la documentación.
-
-
-COSAS A MEJORAR:
-
-HEADER
-Justificar elementos en pantalla pequeña, acabar de hacer el resto de cuando la pagina esta en pantalla completa.
