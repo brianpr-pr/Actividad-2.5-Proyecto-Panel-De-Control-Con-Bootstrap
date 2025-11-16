@@ -11,7 +11,7 @@
     <header class="container-fluid d-flex flex-column pt-2 flex-sm-row justify-content-between text-white bg-primary bg-gradient">
         <div class="col-10 col-sm-6 d-flex flex-row  align-items-center ps-5">
             <div class="me-5 col-2 d-flex align-items-center flex-row">
-                <a class="" href=""><img class="" src="./img/hamburger-button.png" alt="" style="width: 35px;"></a>
+                <a class=""><img id="boton-hamburguesa" class="" src="./img/hamburger-button.png" alt="" style="width: 35px;"></a>
             </div>
 
             <p class="col-5 me-2 fs-1 fw-bold"><a class="text-decoration-none text-light link-dark" href="./index.html">Secure Castle</a></p>
@@ -35,18 +35,18 @@
 
 <div class=" d-flex flex-row">
 
-    <nav class="border border-dark d-none d-md-flex bg-dark text-light flex-md-column col-md-4">
+    <nav id="navegable" class="border border-dark d-none d-md-flex bg-dark text-light flex-md-column col-md-4">
         <div class="d-flex flex-column">
             <hr>
             <h3 class="ms-2 mt-1"><a class="text-decoration-none text-light link-warning" href="./index.html">Home</a></h3>
             <hr>
             <ul class="d-flex flex-column list-unstyled ps-4 pe-1">
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#panel-control">Panel de control principal</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#inicio-sesion">Nivel de permiso</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#registro-amenazas">Registro amenazas</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#tareas">Tareas</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#mensajes">Mensajes</a></li>
-                <li class=""><a class="text-decoration-none text-light link-warning" href="#administrar-usuarios">Administrar usuarios</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./index.html#panel-control">Panel de control principal</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./index.html#inicio-sesion">Nivel de permiso</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./index.html#registro-amenazas">Registro amenazas</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./index.html#tareas">Tareas</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./index.html#mensajes">Mensajes</a></li>
+                <li class=""><a class="text-decoration-none text-light link-warning" href="./index.html#administrar-usuarios">Administrar usuarios</a></li>
             </ul>
             <hr>
         </div>
@@ -55,8 +55,8 @@
             <h3 class="ms-2"><a class="text-decoration-none text-light link-warning" href="./registro_amenazas.html">Registro de amenazas</a></h3>
             <hr>
             <ul class="d-flex flex-column list-unstyled ps-4 pe-1">
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#grafico-amenazas">Grafico de amenazas</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#acciones">Acciones</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./registro_amenazas.html#grafico-amenazas">Grafico de amenazas</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./registro_amenazas.html#acciones">Acciones</a></li>
             </ul>
             <hr>
         </div>
@@ -65,15 +65,15 @@
             <h3 class="ms-2"><a class="text-decoration-none text-light link-warning" href="./administrar_usuarios.html">Administrar usuarios</a></h3>
             <hr>
             <ul class="d-flex flex-column list-unstyled ps-4 pe-1">
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#grafico-amenazas">Lista de usuarios</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#grafico-amenazas">Agregar usuario</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="#grafico-amenazas">Modificar usuario</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./administrar_usuarios.html#grafico-amenazas">Lista de usuarios</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-light link-warning" href="./administrar_usuarios.html#grafico-amenazas">Agregar usuario</a></li>
+                <li class=""><a class="text-decoration-none text-light link-warning" href="./administrar_usuarios.html#grafico-amenazas">Modificar usuario</a></li>
             </ul>
             <hr>
         </div>
     </nav>
 
-    <main class="container-fluid border border-secondary d-flex flex-column col-12 col-md-8 bg-secondary bg-gradient " style="--bs-bg-opacity: .3;">
+    <main id="main" class="container-fluid border border-secondary d-flex flex-column col-12 col-md-8 bg-secondary bg-gradient " style="--bs-bg-opacity: .3;">
         <div class="mt-5 mb-1 text-center">
             <div class="d-inline-block border-top border-bottom border-3 text-dark border-light px-3">
                 <h2 id="panel-control" class="m-0">Panel de control principal</h2>
@@ -190,7 +190,12 @@
         </div>
     </main>
 </div>
-    <footer></footer>
+<footer class="bg-primary text-white text-center py-3">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    <small>Hecho con Bootstrap</small>
+  </div>
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="./general.js">
